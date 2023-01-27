@@ -37,4 +37,5 @@ set.seed(1896)
 klausurfragen <- c("Fragen/F3_SitzFOM_Dynamik.Rmd",
                    sample(c("Fragen/F4_Algebra.Rmd", 
                             "Fragen/F5_Modellierung.Rmd"), 1))
+# Export nach moodle
 exams2moodle(klausurfragen)
