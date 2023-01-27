@@ -1,0 +1,43 @@
+```{r datenerzeugung, echo = FALSE, results = "hide"}
+# Achsenabschnitt
+b0 <- sample(-10:10, 1)
+# Steigung
+b1 <- sample(-3:3, 1)
+# x-Werte
+x <- rnorm(n = 60, mean = 5, sd = 2)
+# y-Werte 
+y <- b0 + b1*x + rnorm(60)
+
+# Fragestellung
+fragen <- c("die Steigung", "den Achsenabschnitt", "den p-Wert", "das Bestimmtheitsmaß")
+frage <- sample(fragen,1)
+```
+Question
+========
+
+Es liegen `r length(x)` Beobachtungen von zwei Variablen $(x_i,y_i)$ vor.
+
+```{r, echo=FALSE, fig.cap=""}
+plot(x,y)
+```
+
+Eine lineare Regression von $y$ auf $x$ ergibt folgendes Ergebnis:
+
+```{r}
+erg <- lm(y~x)
+summary(erg)
+```
+
+Interpretieren Sie `r frage`.
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: Lineare Modellierung
+extype: string
+exsolution: nil
+

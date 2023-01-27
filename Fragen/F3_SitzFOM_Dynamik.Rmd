@@ -1,0 +1,41 @@
+```{r datenerzeugung, echo = FALSE, results = "hide"}
+# 8 Antwortalternativen
+antworten <- character(8)
+antworten[1] <- "Dortmund"
+antworten[2] <- "Hannover"
+antworten[3] <- "Berlin"
+antworten[4] <- "Frankfurt"
+antworten[5] <- "Essen"
+antworten[6] <- "München"
+antworten[7] <- "Hamburg"
+antworten[8] <- "Köln"
+
+# Richtige Lösung ist 5.
+richtig <- rep(FALSE, 8)
+richtig[5] <- TRUE
+```
+Question
+========
+In welcher Stadt liegt der Hauptsitz der FOM?
+
+```{r fragenliste, echo = FALSE, results = "asis"}
+answerlist(antworten, markup = "markdown")
+```
+
+
+Solution
+========
+Die FOM wurde auf Initiative Essener Unternehmens- und Wirtschaftsverbände gegründet.
+
+```{r loesungsliste, echo = FALSE, results = "asis"}
+answerlist(ifelse(richtig, "Richtig", "Falsch"), markup = "markdown")
+```
+
+
+Meta-information
+================
+exname: FOM Hauptsitz
+extype: schoice
+exshuffle: 4
+exsolution: `r mchoice2string(richtig, single = TRUE)`
+

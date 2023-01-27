@@ -1,0 +1,32 @@
+Question
+========
+In welcher Stadt liegt der Hauptsitz der FOM?
+
+Answerlist
+----------
+- Dortmund
+- Hannover
+- Berlin
+- Frankfurt
+- Essen
+- München
+
+Solution
+========
+Die FOM wurde auf Initiative Essener Unternehmens- und Wirtschaftsverbände gegründet.
+
+Answerlist
+----------
+- Falsch
+- Falsch
+- Falsch
+- Falsch
+- Richtig
+- Falsch
+
+Meta-information
+================
+exname: FOM Hauptsitz
+extype: schoice
+exsolution: 000010
+

@@ -1,0 +1,28 @@
+```{r datenerzeugung, echo = FALSE, results = "hide"}
+# Zufallszahlen
+a <- sample(1:9,1)
+b <- sample(1:9,1)
+c <- sample(1:9,1)
+
+# Lösung
+x <- a*b+c
+```
+Question
+========
+Wie lautet die Lösung von
+
+$$`r a` \cdot `r b` = x - `r c`?$$
+
+
+Solution
+========
+Durch Auflösen nach $x$ ergibt sich:
+
+$$x=`r a` \cdot `r b` + `r c` = `r x`$$
+
+Meta-information
+================
+exname: Algebra
+extype: num
+exsolution: `r fmt(x)`
+extol: 0
