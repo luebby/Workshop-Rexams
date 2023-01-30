@@ -26,3 +26,4 @@ exname: Algebra
 extype: num
 exsolution: `r fmt(x)`
 extol: 0
+expoints: 2

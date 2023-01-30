@@ -38,4 +38,4 @@ exname: FOM Hauptsitz
 extype: schoice
 exshuffle: 4
 exsolution: `r mchoice2string(richtig, single = TRUE)`
-
+expoints: 2

@@ -35,4 +35,4 @@ Meta-information
 exname: FOM Hauptsitz
 extype: schoice
 exsolution: `r mchoice2string(richtig, single = TRUE)`
-
+expoints: 2

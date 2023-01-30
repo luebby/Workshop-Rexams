@@ -29,4 +29,4 @@ Meta-information
 exname: FOM Hauptsitz
 extype: schoice
 exsolution: 000010
-
+expoints: 2

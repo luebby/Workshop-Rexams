@@ -40,4 +40,8 @@ Meta-information
 exname: Lineare Modellierung
 extype: string
 exsolution: nil
-
+expoints: 2
+exextra[essay,logical]: TRUE
+exextra[essay_format,character]: editor
+exextra[essay_required,logical]: TRUE
+exextra[essay_fieldlines,numeric]: 5
