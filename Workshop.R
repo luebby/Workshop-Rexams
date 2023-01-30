@@ -15,7 +15,7 @@ exams2html("Fragen/F1_SitzFOM.Rmd")
 # Ohne Antworten
 exams2html("Fragen/F1_SitzFOM.Rmd", solution = FALSE)
 # Als pdf
-exams2pdf("Fragen/F1_SitzFOM.Rmd", template = "tex/fom")
+exams2pdf("Fragen/F1_SitzFOM.Rmd")
 
 ## Beipiel 2. Wie 1, nur mit R
 exams2html("Fragen/F2_SitzFOM_R.Rmd")
